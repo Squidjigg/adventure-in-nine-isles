@@ -1,2 +1,2 @@
 # Adventure In Nine Isles
-My first attempt at coding a text-based game
+My first attempt at coding a text-based adventure game
