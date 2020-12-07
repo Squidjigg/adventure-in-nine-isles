@@ -1,11 +1,15 @@
+# define text in title crawl
 header = ' Welcome...'
 header1 = ' to...'
 whiteSp = ''
-title = ' ADVENTURE IN NINE ISLE'
+title = ' ADVENTURE IN NINE ISLES'
+
+# print lines and title crawl 
 print(f'-{whiteSp:-^48}-')
 print(f'-{header:<48}-')
 print(f'-{header1:<48}-')
 
+# loop for lines and main title
 i = 0
 while i < 4:
     print(f'-{whiteSp:-^48}-')
@@ -13,13 +17,3 @@ while i < 4:
 
     if i == 2:
         print(f'-{title:<48}-')
-        #print(f'-{title[0]:<48}-')
-
-    #if i == 2:
-     #    print(f'-{title[1]:<48}-')
-
-    #if i == 3:
-     #   print(f'-{title[2]:<48}-')
-
-    #if i == 4:
-     #   print(f'-{title[3]:<48}-')
